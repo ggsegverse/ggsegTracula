@@ -1,9 +1,4 @@
-
 library(testthat)
-library(ggplot2)
-library(ggseg)
-library(ggseg3d)
+library(ggsegTracula)
 
 test_check("ggsegTracula")
-
-# covr::zero_coverage(covr::package_coverage("."))
