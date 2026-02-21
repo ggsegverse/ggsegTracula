@@ -13,8 +13,8 @@ Tracula white matter tract atlas for the 'ggseg' ecosystem. Provides a unified '
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/ggseg/ggsegTracula}
-  \item Report bugs at \url{https://github.com/ggseg/ggsegTracula/issues}
+  \item \url{https://github.com/ggsegverse/ggsegTracula}
+  \item Report bugs at \url{https://github.com/ggsegverse/ggsegTracula/issues}
 }
 
 }

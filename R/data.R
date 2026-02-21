@@ -13,6 +13,7 @@
 #' (\href{https://www.ncbi.nlm.nih.gov/pubmed/22016733}{PubMed})
 #'
 #' @return A [ggseg.formats::ggseg_atlas] object (subcortical).
+#' @import ggseg.formats
 #' @export
 #' @examples
 #' tracula()
