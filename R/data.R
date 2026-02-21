@@ -5,10 +5,6 @@
 #' Contains both 2D polygon geometry for [ggseg::geom_brain()] and
 #' 3D mesh geometry for [ggseg3d::ggseg3d()].
 #'
-#' @docType data
-#' @name tracula
-#' @usage data(tracula)
-#' @keywords datasets
 #' @family ggseg_atlases
 #'
 #' @references Yendiki et al. (2011) Automated probabilistic reconstruction of
@@ -16,8 +12,8 @@
 #' anatomy. Front. Neuroinform. 5:23. doi: 10.3389/fninf.2011.00023
 #' (\href{https://www.ncbi.nlm.nih.gov/pubmed/22016733}{PubMed})
 #'
-#' @format A [ggseg.formats::ggseg_atlas] object (subcortical).
+#' @return A [ggseg.formats::ggseg_atlas] object (subcortical).
+#' @export
 #' @examples
-#' data(tracula)
-#' tracula
-"tracula"
+#' tracula()
+tracula <- function() .tracula

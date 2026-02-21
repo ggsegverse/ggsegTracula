@@ -44,12 +44,12 @@ library(ggplot2)
 
 ggplot() +
   geom_brain(
-    atlas = tracula,
+    atlas = tracula(),
     mapping = aes(fill = label),
     position = position_brain(hemi ~ view),
     show.legend = FALSE
   ) +
-  scale_fill_manual(values = tracula$palette, na.value = "grey") +
+  scale_fill_manual(values = tracula()$palette, na.value = "grey") +
   theme_void()
 ```
 
@@ -58,14 +58,14 @@ ggplot() +
 ```{r "noneval", eval=FALSE}
 library(ggseg3d)
 
-ggseg3d(atlas = tracula) |>
+ggseg3d(atlas = tracula()) |>
   pan_camera("right lateral")
 ```
 
 ```{r "orca", include=FALSE, eval=FALSE}
 library(ggseg3d)
 
-p <- ggseg3d(atlas = tracula) |>
+p <- ggseg3d(atlas = tracula()) |>
   add_glassbrain(hemisphere = "left") |>
   pan_camera("right lateral") |>
   plotly::add_annotations(text = "Screen capture",

@@ -14,7 +14,6 @@ Description: Tracula white matter tract atlas for the 'ggseg' ecosystem.
     3D mesh geometry, for use with 'ggseg' and 'ggseg3d'.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
 Depends:
     R (>= 3.5),
     ggseg.formats
